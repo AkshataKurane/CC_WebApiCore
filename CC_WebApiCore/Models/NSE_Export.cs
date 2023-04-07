@@ -16,5 +16,18 @@ namespace CC_WebApiCore.Models
         public string Industry { get; set; }
         public string Exchange { get; set; }
         public string Currency { get; set; }
+        
+        public string Series { get; set; }
+        public string InsertDate { get; set; }
+        public int PaidUpValue { get; set; }
+        public int MarketLot { get; set; }
+        public int FaceValue { get; set; }
+        public string InsertUser { get; set; }
+        public string UpdateUser { get; set; }
+        public string UpdateDate { get; set; }
+
+        public string Price { get; set; }
+       
+
     }
 }
